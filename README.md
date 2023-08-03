@@ -19,13 +19,13 @@ An example of these two patterns can be found here.
 
 # Objects
 
-In swift, the term "object" is used to refer instances of classes or structs. Simply put, objects, the fundamental building blocks of object-oriented programming, represent a specific instance of a class or a value type. Swift uses this term less frequently, because it emphasizes the difference between classes and value types like structs and enums.
+In swift, the term "object" is used to refer to instances of classes or structs. Simply put, objects, the fundamental building blocks of object-oriented programming, represent a specific instance of a class or a value type. Swift uses this term less frequently, because it emphasizes the difference between classes and value types like structs and enums.
 
 For example, an instance of a given class (Person), would be considered an object; i.e. let person1 = Person(name: Alice, age,: 30).
 
 The term instance and object are used interchangeably, so you can say that person1 is an instance of the Person class but it is also an object.
 
-Remember, while in Swift the term instance and object are used interchangeably, the term "object" is more frequently used for reference types, such as Classes, in Swift. Instances are more frequently used for structs and enums, instead of "objects", which are more reserved for instances of a Class.
+Remember, while in Swift the term instance and object are used interchangeably, the term "object" is more frequently used for reference types, such as Classes, in Swift. Instances are more frequently used for structs and enums, instead of "objects", which is more reserved for instances of a Class.
 
 # Object-Oriented Programming
 
