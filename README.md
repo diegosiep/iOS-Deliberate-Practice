@@ -17,7 +17,7 @@ The main difference betweeen MVVM and MVC, is that MVVM works with the ViewModel
 
 An example of these two patterns can be found here.
 
-#Objects
+# Objects
 
 In swift, the term "object" is used to refer instances of classes or structs. Simply put, objects, the fundamental building blocks of object-oriented programming, represent a specific instance of a class or a value type. Swift uses this term less frequently, because it emphasizes the difference between classes and value types like structs and enums.
 
@@ -27,7 +27,7 @@ The term instance and object are used interchangeably, so you can say that perso
 
 Remember, while in Swift the term instance and object are used interchangeably, the term "object" is more frequently used for reference types, such as Classes, in Swift. Instances are more frequently used for structs and enums, instead of "objects", which are more reserved for instances of a Class.
 
-#Object-Oriented Programming
+# Object-Oriented Programming
 
 Object-Oriented Programming (OOP), is a programming paradigm based on the concept of "objects". Objects are instances of classes or data structures, that encapsulate data and methods. OOP in Swift involves the following key concepts:
 
