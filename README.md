@@ -38,3 +38,8 @@ Object-Oriented Programming (OOP), is a programming paradigm based on the concep
 5. Abstraction --> Allows to focus on what an object does rather than how it does it. Swift's protocols enable abstraction. Abstracting involves simplifying complex reality by modeling classes based on their essential properties and behaviors; protocols allow for such purpose. 
 
 
+# Functional programming
+
+Functional programming implements the use of functions to achieve a certain process. Swift is a programming language that centres around functional programming. 
+The use of '.map' and '.reduce' functions/methods are a good example of functional programming. Instead of implementing a for-loop for iterating and executing certain processes on an array, we can use the '.map' function, implemented by Swift. 
+These functions/methods are natively implemented in the Swift programming language to manipulate and execute powerful processes. At the end of the day, it is all about saving time and making the code shorter and more readable with functions.
