@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C480E0B52BE7FBBC00CCD4EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480E0B42BE7FBBC00CCD4EC /* AppDelegate.swift */; };
+		C480E0B72BE7FBBC00CCD4EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480E0B62BE7FBBC00CCD4EC /* SceneDelegate.swift */; };
+		C480E0B92BE7FBBC00CCD4EC /* GradientColoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480E0B82BE7FBBC00CCD4EC /* GradientColoursViewController.swift */; };
+		C480E0BE2BE7FBBE00CCD4EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C480E0BD2BE7FBBE00CCD4EC /* Assets.xcassets */; };
+		C480E0C12BE7FBBE00CCD4EC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C480E0C02BE7FBBE00CCD4EC /* Base */; };
+		C480E0C92BE805D300CCD4EC /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480E0C82BE805D300CCD4EC /* Animate.swift */; };
+		C480E0CB2BE83F8C00CCD4EC /* AnimatedGradientExample1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480E0CA2BE83F8C00CCD4EC /* AnimatedGradientExample1ViewController.swift */; };
+		C496C1D82BEAF06900A498EA /* RadialGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496C1D72BEAF06900A498EA /* RadialGradientViewController.swift */; };
+		C49F1B0E2BEC4002009AD304 /* RadialGradientCGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49F1B0D2BEC4002009AD304 /* RadialGradientCGViewController.swift */; };
+		C4B574E02BE8520F00E0228B /* AnimatedGradientExample2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B574DF2BE8520F00E0228B /* AnimatedGradientExample2ViewController.swift */; };
+		C4B574E22BE8A6CD00E0228B /* AnimatedGradientExample3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B574E12BE8A6CD00E0228B /* AnimatedGradientExample3ViewController.swift */; };
+		C4C83FEE2BED43DB0082C9A5 /* UIColor+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C83FED2BED43DB0082C9A5 /* UIColor+Util.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C480E0B12BE7FBBC00CCD4EC /* GradientCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C480E0B42BE7FBBC00CCD4EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C480E0B62BE7FBBC00CCD4EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C480E0B82BE7FBBC00CCD4EC /* GradientColoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientColoursViewController.swift; sourceTree = "<group>"; };
+		C480E0BD2BE7FBBE00CCD4EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C480E0C02BE7FBBE00CCD4EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C480E0C22BE7FBBE00CCD4EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C480E0C82BE805D300CCD4EC /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
+		C480E0CA2BE83F8C00CCD4EC /* AnimatedGradientExample1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientExample1ViewController.swift; sourceTree = "<group>"; };
+		C496C1D72BEAF06900A498EA /* RadialGradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientViewController.swift; sourceTree = "<group>"; };
+		C49F1B0D2BEC4002009AD304 /* RadialGradientCGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientCGViewController.swift; sourceTree = "<group>"; };
+		C4B574DF2BE8520F00E0228B /* AnimatedGradientExample2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientExample2ViewController.swift; sourceTree = "<group>"; };
+		C4B574E12BE8A6CD00E0228B /* AnimatedGradientExample3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientExample3ViewController.swift; sourceTree = "<group>"; };
+		C4C83FED2BED43DB0082C9A5 /* UIColor+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Util.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C480E0AE2BE7FBBC00CCD4EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C480E0A82BE7FBBC00CCD4EC = {
+			isa = PBXGroup;
+			children = (
+				C480E0B32BE7FBBC00CCD4EC /* GradientCoreAnimation */,
+				C480E0B22BE7FBBC00CCD4EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C480E0B22BE7FBBC00CCD4EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C480E0B12BE7FBBC00CCD4EC /* GradientCoreAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C480E0B32BE7FBBC00CCD4EC /* GradientCoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C480E0B42BE7FBBC00CCD4EC /* AppDelegate.swift */,
+				C480E0B62BE7FBBC00CCD4EC /* SceneDelegate.swift */,
+				C480E0B82BE7FBBC00CCD4EC /* GradientColoursViewController.swift */,
+				C4C83FEF2BED48BC0082C9A5 /* ViewControllers */,
+				C4C83FF02BED48C80082C9A5 /* Utils */,
+				C4C83FF12BED48E00082C9A5 /* Files */,
+			);
+			path = GradientCoreAnimation;
+			sourceTree = "<group>";
+		};
+		C4C83FEF2BED48BC0082C9A5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C480E0CA2BE83F8C00CCD4EC /* AnimatedGradientExample1ViewController.swift */,
+				C4B574DF2BE8520F00E0228B /* AnimatedGradientExample2ViewController.swift */,
+				C4B574E12BE8A6CD00E0228B /* AnimatedGradientExample3ViewController.swift */,
+				C496C1D72BEAF06900A498EA /* RadialGradientViewController.swift */,
+				C49F1B0D2BEC4002009AD304 /* RadialGradientCGViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C4C83FF02BED48C80082C9A5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C480E0C82BE805D300CCD4EC /* Animate.swift */,
+				C4C83FED2BED43DB0082C9A5 /* UIColor+Util.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C4C83FF12BED48E00082C9A5 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				C480E0BD2BE7FBBE00CCD4EC /* Assets.xcassets */,
+				C480E0BF2BE7FBBE00CCD4EC /* LaunchScreen.storyboard */,
+				C480E0C22BE7FBBE00CCD4EC /* Info.plist */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C480E0B02BE7FBBC00CCD4EC /* GradientCoreAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C480E0C52BE7FBBE00CCD4EC /* Build configuration list for PBXNativeTarget "GradientCoreAnimation" */;
+			buildPhases = (
+				C480E0AD2BE7FBBC00CCD4EC /* Sources */,
+				C480E0AE2BE7FBBC00CCD4EC /* Frameworks */,
+				C480E0AF2BE7FBBC00CCD4EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientCoreAnimation;
+			productName = GradientCoreAnimation;
+			productReference = C480E0B12BE7FBBC00CCD4EC /* GradientCoreAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C480E0A92BE7FBBC00CCD4EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C480E0B02BE7FBBC00CCD4EC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C480E0AC2BE7FBBC00CCD4EC /* Build configuration list for PBXProject "GradientCoreAnimation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C480E0A82BE7FBBC00CCD4EC;
+			productRefGroup = C480E0B22BE7FBBC00CCD4EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C480E0B02BE7FBBC00CCD4EC /* GradientCoreAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C480E0AF2BE7FBBC00CCD4EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480E0BE2BE7FBBE00CCD4EC /* Assets.xcassets in Resources */,
+				C480E0C12BE7FBBE00CCD4EC /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C480E0AD2BE7FBBC00CCD4EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480E0B92BE7FBBC00CCD4EC /* GradientColoursViewController.swift in Sources */,
+				C4C83FEE2BED43DB0082C9A5 /* UIColor+Util.swift in Sources */,
+				C4B574E22BE8A6CD00E0228B /* AnimatedGradientExample3ViewController.swift in Sources */,
+				C49F1B0E2BEC4002009AD304 /* RadialGradientCGViewController.swift in Sources */,
+				C480E0CB2BE83F8C00CCD4EC /* AnimatedGradientExample1ViewController.swift in Sources */,
+				C496C1D82BEAF06900A498EA /* RadialGradientViewController.swift in Sources */,
+				C4B574E02BE8520F00E0228B /* AnimatedGradientExample2ViewController.swift in Sources */,
+				C480E0B52BE7FBBC00CCD4EC /* AppDelegate.swift in Sources */,
+				C480E0B72BE7FBBC00CCD4EC /* SceneDelegate.swift in Sources */,
+				C480E0C92BE805D300CCD4EC /* Animate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C480E0BF2BE7FBBE00CCD4EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C480E0C02BE7FBBE00CCD4EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C480E0C32BE7FBBE00CCD4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C480E0C42BE7FBBE00CCD4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C480E0C62BE7FBBE00CCD4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7YYU53MN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GradientCoreAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegosierra.GradientCoreAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C480E0C72BE7FBBE00CCD4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7YYU53MN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GradientCoreAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegosierra.GradientCoreAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C480E0AC2BE7FBBC00CCD4EC /* Build configuration list for PBXProject "GradientCoreAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C480E0C32BE7FBBE00CCD4EC /* Debug */,
+				C480E0C42BE7FBBE00CCD4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C480E0C52BE7FBBE00CCD4EC /* Build configuration list for PBXNativeTarget "GradientCoreAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C480E0C62BE7FBBE00CCD4EC /* Debug */,
+				C480E0C72BE7FBBE00CCD4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C480E0A92BE7FBBC00CCD4EC /* Project object */;
+}
